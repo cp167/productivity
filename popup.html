@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get It Done</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="popup.js" defer></script>
+</head>
+<body>
+    <h1>Get It Done</h1>
+    </div>
+    <h2>Pomodoro Timer</h2>
+    <div id="session-label">Work Session</div> <!-- Displays current session -->
+    <div id="timer">
+        <span id="minutes">25</span>:<span id="seconds">00</span>
+    </div>
+    <p>Pomodoros Completed: <span id="pomodoro-count">0</span></p> <!-- Pomodoro counter -->
+    <button id="start-timer">Start</button>
+    <button id="reset-timer">Reset</button>
+
+    <h2>Task List</h2>
+    <div id="task-container">
+        <ul id="task-list"></ul> <!-- Dynamic list for tasks -->
+    </div>
+    <div class="task-input">
+        <input type="text" id="new-task" placeholder="Add a task..." />
+        <button id="add-task">➕</button>
+    </div>
+    
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+    <span id="progress-text">0% Completed</span>
+    
+</body>
+</html>

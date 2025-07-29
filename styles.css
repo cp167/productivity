@@ -1,0 +1,104 @@
+
+body {
+    width: 300px;
+    height: 400px;
+    font-family: 'Indie Flower', cursive;
+    background-color: #eaf4ea;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4a7057;
+    font-size: 22px;
+}
+
+#timer {
+    font-size: 48px;
+    font-weight: bold;
+    color: #4a7057;
+    margin: 10px 0;
+}
+
+p {
+    color: #4a7057;
+    font-size: 16px;
+}
+
+/* Cute Buttons */
+button {
+    background-color: #9abf9e;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #7ca386;
+}
+
+/* Styling for Different Sessions */
+.work {
+    background-color: #eaf4ea;
+}
+
+.short-break {
+    background-color: #d4e9d4;
+}
+
+.long-break {
+    background-color: #c1ddc1;
+}
+.task-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#new-task {
+    flex: 1;
+    padding: 8px;
+    border: 2px solid #d0e2bc;
+    border-radius: 10px;
+    font-family: "Indie Flower", cursive;
+    outline: none;
+    background: #eef2e6;
+}
+
+#add-task {
+    border: none;
+    background: #678d58;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#add-task:hover {
+    background: #557a46;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    background: #eef2e6; /* Light sage green */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Indie Flower", cursive;
+}
+
+.task-item input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
